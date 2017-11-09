@@ -3,21 +3,18 @@
   <head>
     <meta http-equiv="content-language" content="ja">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="">
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
-
     <title>店舗検索</title>
-
   </head>
 
   <body>
+
     <div id="page">
 
     <!-- ヘッダー -->
-    <header style="margin: 0; padding: 0; background: pink; text-align: -webkit-center; color: darkslategrey;">
-      店舗検索　お問い合わせ　会員登録
-    </header>
+    <?php include ('./conf/header.html'); ?>
 
     <!-- メニュー -->
     <div id="menu" style="width: 300; height: 265; font-size: 13; float: left; margin: 30; background-color: snow;">
@@ -233,9 +230,7 @@
     </script>
 
     <!-- フッター -->
-    <footer style="clear:both; margin: 0; padding: 0; background: pink; text-align: -webkit-center; color: darkslategrey;">
-      店舗検索　お問い合わせ　利用規約
-    </footer>
+    <?php include ('./conf/footer.html'); ?>
 
   </div>
 
